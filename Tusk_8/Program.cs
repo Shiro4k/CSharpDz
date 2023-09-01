@@ -5,6 +5,6 @@ int count = 0;
 int sum = 0;
 while (count < N)
 {
-    System.Console.WriteLine(sum);
+    System.Console.WriteLine(count);
     count+=2;
 }
