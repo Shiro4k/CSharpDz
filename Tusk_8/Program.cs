@@ -2,7 +2,7 @@
 System.Console.Write("Введите Число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 int count = 2;
-while (count < N)
+while (count <= N)
 {
     System.Console.WriteLine(count);
     count+=2;
